@@ -1,0 +1,10 @@
+import types
+class C:
+    def a():
+        return 1
+    def b():
+        return 2
+    def x():
+        return 3
+print(isinstance(C().x, types.MethodType))
+print(isinstance(max, types.MethodType))
