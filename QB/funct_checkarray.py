@@ -6,4 +6,3 @@ print("Original array:")
 for i in range(len(array_num)):
     print(array_num[i], end=' ')
 print("\nMissing number in the said array (10-20): ",test(array_num))
-
