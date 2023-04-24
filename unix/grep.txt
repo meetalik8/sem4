@@ -1,0 +1,9 @@
+man grep (manual)
+lines containing current: grep current bank.lst
+starting with 1: grep [^1] bank.lst
+lines ending in nt: grep [nt$] bank.lst
+appending: cat >>bank.lst
+writing to file: cat >bank.lst
+reverse of selection: grep -v current bank.lst
+case insensitive: grep -i current bank.lst OR grep -e current -e Current bank.lst
+count: grep -c current bank.lst
