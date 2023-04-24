@@ -1,0 +1,11 @@
+$age = 25;
+$salary = 1250.55;
+$name = "Joseph";
+@ages =(25,13,22);
+@names =('Joseph','Taylor','Jude');
+print "Age = $age\n";
+print "Name = $name\n";
+print "\$ages[0] = $ages[0]\n";
+print "\$name[1] = $names[1]\n";
+%data = ('Joseph',45,'Taylor',32,'Jude',22);
+print "\$data[0]{'Taylor'} = $data{'Taylor'}\n";
