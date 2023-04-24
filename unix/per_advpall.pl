@@ -51,3 +51,13 @@ if($count>=2){
 else {
         print"Prime\n";
 }
+
+#area of rectangle
+print "Enter length of rectangle :";
+$len = <>;
+print "Enter breadth of rectangle :";
+$bre = <>;
+$area =$len * $bre;
+$peri = 2*($len + $bre);
+print "Area of rectangle = $area\n";
+print "Perimeter of rectangle = $peri\n";
